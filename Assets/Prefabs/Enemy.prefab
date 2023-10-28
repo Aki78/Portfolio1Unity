@@ -45,6 +45,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bac42710e9d8362939e8aaed3a57847c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  frequency: 1
+  magnitude: 5.5
+  downwardSpeed: 0.05
+  bulletPrefab: {fileID: 8203425980774385090, guid: a0cb569bef95a078fb7ad5eb6ee97b06, type: 3}
+  shootSpeed: -10
+  threshold: 10
 --- !u!1 &6716283802964402833
 GameObject:
   m_ObjectHideFlags: 0
