@@ -33,7 +33,7 @@ public class EnemyBehaviour : MonoBehaviour{
 //                print(y);
         }
         
-        float randomNumber = Random.Range(0, 100);
+        float randomNumber = Random.Range(0, 5000);
 
         if (randomNumber < threshold){
             Shoot();
